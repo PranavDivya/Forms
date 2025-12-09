@@ -1,0 +1,116 @@
+html{
+    background-image: url(images/background-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.login-form{
+    /* text-align: center; */
+    font-weight: 600;
+    /* border: 2px solid; */
+    border-radius: 15px;
+    padding: 2rem;
+    width: 300px;
+    font-size: 16px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.452));
+}
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+
+}
+
+input, button,label{
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 7%;
+}
+
+.login-form input{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+button{
+    border: none;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(54, 54, 54, 0.8);
+}
+
+p{
+    font-size: small;
+    font-weight: 500;
+}
+
+p a{
+    text-decoration: none;
+}
+
+.login-form p a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.sign-form{
+    /* text-align: center; */
+    font-weight: 600;
+    /* border: 2px solid; */
+    border-radius: 15px;
+    padding: 2rem;
+    width: 400px;
+    font-size: 16px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.452));
+}
+
+.sign-form input{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sign-form button{
+    margin-top: 15px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    width: 5%;
+    margin-left: 3% ;
+}
+
+@media screen and (max-width: 768px) {
+        .login-form {
+            width: 90%; /* Make form take up more width on smaller screens */
+            padding: 20px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="checkbox"]
+        button {
+            padding: 15px; /* Increase padding for easier tapping */
+        }
+        /* ... other adjustments ... */
+    }
