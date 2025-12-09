@@ -99,18 +99,3 @@ input[type="checkbox"], input[type="radio"]{
     width: 5%;
     margin-left: 3% ;
 }
-
-@media screen and (max-width: 768px) {
-        .login-form {
-            width: 90%; /* Make form take up more width on smaller screens */
-            padding: 20px;
-        }
-        input[type="text"],
-        input[type="password"],
-        input[type="email"],
-        input[type="checkbox"]
-        button {
-            padding: 15px; /* Increase padding for easier tapping */
-        }
-        /* ... other adjustments ... */
-    }
