@@ -11,46 +11,52 @@
         <form action="example.html" class="sign-form"> 
             <h1>Sign up</h1>
             <br>
-            <label for="fname">First Name</label>
-            <br>
-            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            <fieldset>
+                <legend><span>1</span> Basic info</legend>
+                <label for="fname">First Name</label>
+                <br>
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                <br><br>
+                <label for="lname">Last Name</label>
+                <br>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                <br><br>
+                <label for="uname">username</label>
+                <br>
+                <input type="text" name="uname" id="uname" placeholder="username" required>
+                <br><br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <br><br>
+                <label for="pswd">Password</label>
+                <br>
+                <input type="password" name="pswd" id="pswd" placeholder="Password" required>
+                <br><br>
+                <label for="cpwd">Confirm Password</label>
+                <br>
+                <input type="password" name="cpwd" id="cpwd" placeholder="Confirm Password" required>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend><span>2</span> Other info</legend>
+                <label>Gender:</label>
+                <br>
+                <input type="radio" name="gender" id="male" required> 
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <br><br>
+                <label>Vehicle types you own:</label>
+                <br>
+                <input type="checkbox" name="bike" id="bike">
+                <label for="bike">Bike</label>
+                <input type="checkbox" name="car" id="car">
+                <label for="car">Car</label>
+                <input type="checkbox" name="other" id="other">
+                <label for="other">Other</label>
+            </fieldset>
             <br><br>
-            <label for="lname">Last Name</label>
-            <br>
-            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
-            <br><br>
-            <label for="uname">username</label>
-            <br>
-            <input type="text" name="uname" id="uname" placeholder="username" required>
-            <br><br>
-            <label>Gender:</label>
-            <br>
-            <input type="radio" name="gender" id="male" required> 
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="female">
-            <label for="female">Female</label>
-            <br><br>
-            <label>Vehicle types you own:</label>
-            <br>
-            <input type="checkbox" name="bike" id="bike">
-            <label for="bike">Bike</label>
-            <input type="checkbox" name="car" id="car">
-            <label for="car">Car</label>
-            <input type="checkbox" name="other" id="other">
-            <label for="other">Other</label>
-            <br><br>
-            <label for="email">Email</label>
-            <br>
-            <input type="email" name="email" id="email" placeholder="Email" required>
-            <br><br>
-            <label for="pswd">Password</label>
-            <br>
-            <input type="password" name="pswd" id="pswd" placeholder="Password" required>
-            <br><br>
-            <label for="cpwd">Confirm Password</label>
-            <br>
-            <input type="password" name="cpwd" id="cpwd" placeholder="Confirm Password" required>
-            <br>
             <button type="submit">Sign up</button>
             <p>Already a user? <a href="login.html">login</a></p>
         </form>

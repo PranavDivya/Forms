@@ -24,6 +24,20 @@ html{
     background: linear-gradient(rgba(0, 0, 0, 0.452));
 }
 
+fieldset{
+    border: none;
+}
+
+legend{
+    font-size: 18px;
+}
+
+span{
+    background-color: rgb(202, 38, 93);
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
 h1{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
